@@ -1,27 +1,48 @@
-# CLASSE ABSTRATA 1/2
+# Sistema Bancário com Classes Abstratas em Java
 
-Crie a classe abstrata ContaBancaria que possui os métodos abstratos, saque, depósito e consulta.
+### 📋 Descrição do Projeto
 
-A partir dela derivam as classes concretas ContaCorrente e ContaPoupança.
+O sistema consiste em:
 
-A ContaPoupança não permite saques maiores que o saldo. Já a ContaCorrente possui um limite após o saldo se esgotar.
+Classe Abstrata ContaBancaria que define:
 
-As duas contas possuem diferentes taxas para saque, depósito e consulta.
+- Métodos básicos: ConsultaSaldo(), Saque(), Deposito()
+- Métodos abstratos para taxas: taxaSaldo(), taxaSaque(), taxaDeposito()
+- Atributos comuns: saldo, valor de saque e valor de depósito
+
+Classes Concretas que herdam de ContaBancaria:
+
+- ContaCorrente: com taxas mais altas e permite saques além do saldo (cheque especial)
+- ContaPoupanca: com taxas mais baixas e não permite saques maiores que o saldo
 
 ### 📋 Pré-requisitos
 
-- Eclipse IDE
+- Java JDK 8 ou superior
+- Eclipse IDE (ou outra IDE Java de sua preferência)
   
 ### 🔧 Instalação
 
-* Explicação de como deve ser utilizado o projeto
+1. Clone o repositório:
+
+```
+git clone https://github.com/seu-usuario/sistema-bancario-java.git
+```
+
+2. Importe o projeto no Eclipse:
+- File → Import → Existing Projects into Workspace
+- Selecione a pasta do projeto clonado
+
+3. Execute a classe Main localizada no pacote Main para ver a demonstração do sistema.
 
 ## 🛠️ Construído com
 
-O código deve ser inicializado por uma IDE que aceite Java, como o Eclipse.
+- Consulta de saldo com taxa
+- Operações de saque com taxas específicas
+- Operações de depósito com taxas específicas
+- Implementação diferenciada para Conta Corrente e Poupança
 
 * IDE Eclipse
 
 ## ✒️ Autores
 
-* **Mateus Franco Bezerra** - *Trabalho Inicial* - CLASSE ABSTRATA 1/2
+* **Mateus Franco Bezerra** - CLASSE ABSTRATA 1/2
