@@ -25,7 +25,7 @@ Classes Concretas que herdam de ContaBancaria:
 1. Clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/CONTA
+git clone https://github.com/seu-usuario/ABSTRATA_CONTA
 ```
 
 2. Importe o projeto no Eclipse:
@@ -45,10 +45,36 @@ git clone https://github.com/seu-usuario/CONTA
 
 Ao executar a classe Main, você verá uma demonstração das operações para ambos os tipos de conta, mostrando:
 
-- Saldo inicial
-- Operações de saque e depósito
-- Aplicação das taxas específicas
-- Saldo após cada operação
+```
+ - Conta Poupança -
+Saldo: 500.0
+Taxa de Consulta de Saldo: 2.5
+
+397.5 - 100.0
+
+Saldo Pós-Saque e Taxa: 397.5
+Taxa de Saque: 10.0
+
+447.5 + 50.0
+
+Saldo Pós-Depósito e Taxa: 447.5
+Taxa de Depósito: 12.0
+
+
+ - Conta Corrente - 
+Saldo: 750.0
+Taxa de Consulta de Saldo: 5.0
+
+695.0 - 50.0
+
+Saldo Pós-Saque e Taxa: 695.0
+Taxa de Consulta de Saldo: 5.0
+
+840.0 + 150.0
+
+Saldo Pós-Depósito e Taxa: 840.0
+Taxa de Saque: 20.0
+```
 
 ## ✒️ Autores
 
