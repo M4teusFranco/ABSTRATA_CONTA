@@ -15,12 +15,12 @@ Classes Concretas que herdam de ContaBancaria:
 - ContaCorrente: com taxas mais altas e permite saques além do saldo (cheque especial)
 - ContaPoupanca: com taxas mais baixas e não permite saques maiores que o saldo
 
-### 📋 Pré-requisitos
+### 🔧 Pré-requisitos
 
 - Java JDK 8 ou superior
 - Eclipse IDE (ou outra IDE Java de sua preferência)
   
-### 🔧 Instalação
+### 🚀 Instalação e execução
 
 1. Clone o repositório:
 
@@ -34,14 +34,21 @@ git clone https://github.com/seu-usuario/sistema-bancario-java.git
 
 3. Execute a classe Main localizada no pacote Main para ver a demonstração do sistema.
 
-## 🛠️ Construído com
+### 🛠️ Construído com
 
 - Consulta de saldo com taxa
 - Operações de saque com taxas específicas
 - Operações de depósito com taxas específicas
 - Implementação diferenciada para Conta Corrente e Poupança
 
-* IDE Eclipse
+### 📝 Exemplo de Saída
+
+Ao executar a classe Main, você verá uma demonstração das operações para ambos os tipos de conta, mostrando:
+
+- Saldo inicial
+- Operações de saque e depósito
+- Aplicação das taxas específicas
+- Saldo após cada operação
 
 ## ✒️ Autores
 
