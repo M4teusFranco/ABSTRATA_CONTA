@@ -25,7 +25,7 @@ Classes Concretas que herdam de ContaBancaria:
 1. Clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/sistema-bancario-java.git
+git clone https://github.com/seu-usuario/CONTA
 ```
 
 2. Importe o projeto no Eclipse:
@@ -34,7 +34,7 @@ git clone https://github.com/seu-usuario/sistema-bancario-java.git
 
 3. Execute a classe Main localizada no pacote Main para ver a demonstração do sistema.
 
-### 🛠️ Construído com
+### 🛠️ Funcionalidades Implementadas
 
 - Consulta de saldo com taxa
 - Operações de saque com taxas específicas
